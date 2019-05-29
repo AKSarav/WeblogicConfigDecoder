@@ -25,3 +25,18 @@ testweblogic03
 in the currently directory check the reports in inventory/<remoteservername>/<domainname>/files
   
   
+## List of Files Generated
+
+```
+weblogic@testserver> ls -rlt
+total 36
+-rw-r--r-- 1 weblogic weblogic 11471 May 29 17:04 domainname.html
+-rw-r--r-- 1 weblogic weblogic   438 May 29 17:04 domainname.csv
+-rw-r--r-- 1 weblogic weblogic   229 May 29 17:04 domainname_apps.properties
+-rw-r--r-- 1 weblogic weblogic   596 May 29 17:04 General.properties
+-rw-r--r-- 1 weblogic weblogic   944 May 29 17:04 AdminServer.properties
+-rw-r--r-- 1 weblogic weblogic  1141 May 29 17:04 ManagedServer2.properties
+-rw-r--r-- 1 weblogic weblogic  1111 May 29 17:04 ManagedServer2Server1.properties
+```
+
+
